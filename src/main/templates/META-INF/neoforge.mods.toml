@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "MIT"
+license = "LGPLv3"
 
 [[mods]]
 modId = "keymod"
@@ -9,6 +9,7 @@ displayName = "Keychains: Supplementaries"
 authors = "Eyae"
 description = '''A simple mod to add keychains to store and use Supplementaries keys'''
 credits="Ebridger [Keychain Sprite]"
+logoFile="logo.png"
 
 [[mixins]]
 config = "keymod.mixins.json"
