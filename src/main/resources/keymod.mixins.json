@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lol.eyae.keymod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "KeyLockableTileMixin",
+    "SafeBlockTileMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
