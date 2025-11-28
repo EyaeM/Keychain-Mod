@@ -16,9 +16,14 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.level.Level;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class KeyChainItem extends Item {
     public static final int KEYCHAIN_SIZE = 9;
@@ -124,5 +129,12 @@ public class KeyChainItem extends Item {
         }
 
         return false;
+    }
+    @Override
+    @OnlyIn(Dist.CLIENT)
+    public void appendHoverText(ItemStack itemstack, TooltipContext context, List<Component> list, TooltipFlag flag) {
+        super.appendHoverText(itemstack, context, list, flag);
+        list.add(Component.translatable("item.keymod.keychain.description_0"));
+        list.add(Component.translatable("item.keymod.keychain.description_1"));
     }
 }

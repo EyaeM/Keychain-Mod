@@ -8,6 +8,7 @@ version = "1.0"
 displayName = "Keychains: Supplementaries"
 authors = "Eyae"
 description = '''A simple mod to add keychains to store and use Supplementaries keys'''
+credits="Ebridger [Keychain Sprite]"
 
 [[mixins]]
 config = "keymod.mixins.json"

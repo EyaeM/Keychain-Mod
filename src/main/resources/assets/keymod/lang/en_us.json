@@ -1,5 +1,7 @@
 {
   "itemGroup.keymod": "Keychain",
   "item.keymod.keychain": "Keychain",
-  "container.keychain": "Keychain"
+  "container.keychain": "Keychain",
+  "item.keymod.keychain.description_0": "A thing to store your keys! Shift Right Click to open menu",
+  "item.keymod.keychain.description_1": "Sprite by Ebridger"
 }

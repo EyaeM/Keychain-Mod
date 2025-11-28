@@ -57,5 +57,15 @@ public abstract class SafeBlockTileMixin {
                 }
             }
         }
+
+        if (net.neoforged.fml.ModList.get().isLoaded("curios")) {
+            try {
+                if (lol.eyae.keymod.integration.CuriosCompat.hasMatchingKeyInCurios(player, requiredPassword)) {
+                    cir.setReturnValue(true);
+                    return;
+                }
+            } catch (Exception e) {
+            }
+        }
     }
 }
