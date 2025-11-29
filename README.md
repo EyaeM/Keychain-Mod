@@ -8,9 +8,9 @@
 - Minecraft 1.21.1 (feel free to open pull requests to port this to other versions as this is open source)
 - Supplementaries (required)
 - Curios (Optional)
-## License
-Copyright (C) 2025 Eyae
 ## Links
 [Download on Modrinth](https://modrinth.com/project/keychains)
+## License
+Copyright (C) 2025 Eyae
 
 Licensed under [LGPLv3](LICENSE.md)
